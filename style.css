@@ -1,0 +1,397 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #FEC4D2;
+}
+
+#navbar {
+    height: 60px;
+    background-color: #131921;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+/* Box1 */
+
+#nav-logo {
+    width: 100px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav-logo img {
+    width: 100%;
+    height: 40px;
+    padding: 0px 2px;
+}
+
+.border {
+    border: 1px solid transparent;
+}
+
+.border:hover {
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+/* box2 */
+
+#nav-deliver {
+    padding: 3px 3px;
+}
+
+#nav-deliver .add-first {
+    color: #cccccc;
+    font-size: 12px;
+    margin-left: 35px;
+}
+
+#nav-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+#nav-icon .add-second {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* box3 */
+
+#nav-search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav-search select {
+    background-color: #ffffff;
+    color: #0f1111;
+    opacity: 0.9;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    width: 45px;
+    height: 38px;
+    border: none;
+    border-right: 1px solid grey;
+
+}
+
+#nav-search input {
+    width: 50vw;
+    height: 38px;
+    border: none;
+    padding: 0px 10px;
+
+}
+
+#search-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 38px;
+    cursor: pointer;
+    background-color: #F3A847;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+#search-icon i {
+    font-size: 18px;
+    color: #333333;
+}
+
+/* box4 */
+
+#nav-signin {
+    padding: 3px 6px;
+    cursor: pointer;
+}
+
+#nav-signin p {
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+#nav-signin select {
+    background: transparent;
+    color: white;
+    border: none;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* box5 */
+
+#nav-returns {
+    padding: 3px 8px;
+    cursor: pointer;
+}
+
+#nav-returns p {
+    font-size: 12px;
+
+}
+
+/* box6 */
+
+#nav-cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    padding: 5px 6px;
+    cursor: pointer;
+}
+
+#nav-cart i {
+    font-size: 20px;
+}
+
+#nav-cart h4 {
+    text-transform: capitalize;
+    margin-top: 8px;
+}
+
+#nav-pannel {
+    width: 100%;
+    height: 40px;
+    background-color: #232F3E;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: white;
+    padding-left: 18px;
+}
+
+#nav-pannel h4 {
+    font-size: 15px;
+}
+
+#nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 5px;
+    cursor: pointer;
+}
+
+#nav-menu i {
+    font-size: 20px;
+}
+
+#nav-deals {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin-left: 25px;
+
+}
+
+#nav-deals p {
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px 5px;
+    cursor: pointer;
+}
+
+#hero-section {
+    height: 320px;
+    background-size: cover;
+    background-image: url("herosection.jpg");
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+#hero-mgs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 95%;
+    background-color: white;
+    position: absolute;
+    bottom: 30px;
+}
+
+#hero-mgs p {
+    font-size: 14px;
+}
+
+#hero-mgs a {
+    text-decoration: none;
+}
+
+#hero-mgs a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+#content {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#content .box {
+    width: 23%;
+    height: 430px;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+    position: relative;
+}
+
+#content .box h2 {
+    margin-left: 25px;
+}
+
+#content .box img {
+    width: 85%;
+    height: 320px;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+#content .box a {
+    margin-left: 25px;
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    text-decoration: none;
+}
+
+#content .box a:hover {
+    color: rgba(255, 0, 0, 0.701);
+    text-decoration: underline;
+}
+
+#footer-top {
+    width: 100%;
+    height: 50px;
+    background-color: #232f3ee8;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    cursor: pointer;
+}
+
+#footer-top:hover {
+    background-color: #232f3ecb;
+}
+
+#footer-top h4 {
+    font-size: 13px;
+    font-weight: 100;
+}
+
+#footer-elements {
+    width: 100%;
+    height: 30vw;
+    background-color: #232F3E;
+    color: white;
+    display: flex;
+    justify-content: center;
+    border-bottom: 0.85px solid hwb(0 91% 1% / 0.105);
+
+}
+
+#footer-box {
+    width: 85%;
+    height: 360px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+#footer-elements .elem {
+    width: 260px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-top: 20px;
+    padding: 0px 20px;
+}
+
+#footer-elements .elem h3 {
+    font-size: 16px;
+}
+
+#footer-elements .elem a {
+    font-weight: 100;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.744);
+}
+
+#footer-elements .elem a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#footer-end {
+    width: 100%;
+    height: 8vw;
+    background-color: #232F3E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#foot-Banner {
+    width: 80%;
+    height: 6vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#foot-Banner #foot-logo {
+    width: 105px;
+    height: 36px;
+    background-image: url("amazon_logo1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#end-elements {
+    display: flex;
+    gap: 10px;
+}
+
+#foot-Banner .ban1 select {
+    border: none;
+    background: transparent;
+    color: rgba(255, 255, 255, 0.744);
+    font-size: 15px;
+}
+
+#foot-Banner .ban {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.744);
+    font-weight: 100;
+    border: 1px solid rgba(255, 255, 255, 0.744);
+    border-radius: 3px;
+    padding: 5px 8px;
+}
